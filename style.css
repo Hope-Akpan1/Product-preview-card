@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 12.8px;
+}
+
+img {
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+  display: block;
+
+}
+
+main {
+  background-color: #fff;
+  width: 325px;
+  height: 360px;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  padding: 25px;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  padding: 15px 0;
+  font-size: 30px;
+}
+
+p,
+span {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 5px;
+}
+
+price {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+s {
+  position: relative;
+  bottom: 7px;
+  margin-left: 10px;
+}
+
+
+.cost {
+  padding: 10px 0;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  width: 270px;
+  height: 45px;
+  border: 0 solid;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 20%);
+}
+
+cart {
+  color: white;
+  font-size: 12.8px;
+  font-weight: 700;
+  margin-left: 10px;
+  position: relative;
+  bottom: 3px;
+}
+
+nav {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+
+@media screen and (min-width: 370px) {
+  body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+
+  }
+
+  header {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+
+
+
+  nav {
+    height: 500px;
+    width: 310px;
+    overflow: visible;
+   
+  }
+
+  main {
+    background-color: #fff;
+    width: 310px;
+    height: 500px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 0px;
+    padding: 25px;
+  
+  }
+
+h1 {
+  padding-right: 20px;
+  font-size:40px;
+  }
+price{
+  font-size: 42px;
+}
+.cost{
+  padding: 20px 0 27px;
+}
+
+button{
+  width: 257px;
+}
+img{
+border-start-end-radius: 0;
+    border-end-start-radius: 10px;
+}
+}
